@@ -89,7 +89,7 @@ def incorrect(guesses,difficulty,option_index):
     # Output - User gets a screen prompt that an incorrect answer has been made and a prompt tells user how many guess attempts remain. If the attempts are exceeded then a prompt is given that the game is over
     incorrect_option = options.pop()
     min_guesses = 0
-    if guesses == min_guesses:
+    if guesses == min_guesses
         game_over = "You've guessed incorrectly too many times\nTry again!"
         return game_over
     else:
